@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+#perfil_desenvolvedor{
+    width: 488px;
+    height: 550px;
+    top: 235px;
+    left: 1030px;
+    gap: 0px;
+    border-radius: 16px 0px 0px 0px;
+    opacity: 0px;
+    border: 3px solid #23a6a8;
+}
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color:#8E8FFA;
+    color: #190482;
+}
+
+.titulo-destaque{
+    color:#3DC2EC;
+}
+
+.apresentacao {
+    margin: 10% 15%;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.apresentacao__conteudo {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.apresentacao__conteudo__titulo {
+    font-size: 36px;
+    font-family: Krona One;
+}
+
+.apresentacao__conteudo__paragrafo {    
+    font-size: 24px;
+    font-family: Montserrat;
+}
+
+.apresentacao__links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.apresentacao__botao__rede__social {
+    background-color: #77E4C8;
+    width: 280px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 21.5px 0; /*1 valor do eixo vertical e o 2 valor horizontal  */
+    text-decoration: none;
+    color: black;
+    font-family: Montserrat;
+
+}
